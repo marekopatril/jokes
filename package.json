@@ -2,7 +2,9 @@
   "name": "@jokes/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "pnpm nx run chucknorris:serve:development"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
